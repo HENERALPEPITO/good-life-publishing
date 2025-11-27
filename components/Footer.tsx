@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
           <div className="col-span-2 lg:col-span-2">
             <div className="flex items-center gap-2 mb-6">
               <img 
-                src="/logo.png"
+                src="image/logo.png"
                 alt="Good Life Publishing"
                 className="h-32 w-auto object-contain" 
               />
