@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
         {/* LOGO */}
         <div className="flex items-center cursor-pointer">
           <img
-            src="image/logo.png"
+            src="/logo.png"
             alt="Good Life Publishing"
             className="h-20 w-auto object-contain"
           />
