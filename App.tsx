@@ -8,6 +8,7 @@ import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
+import VideoDisplay from './components/VideoDisplay';
 
 const App: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const App: React.FC = () => {
       <Navbar />
       <main>
         <Hero />
+        <VideoDisplay />
         <Comparison />
         <Features />
         <Benefits />
