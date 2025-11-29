@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 
  const handleRedirect = () => {
-    window.location.href = "https://goodlifetesting.netlify.app/";
+    window.location.href = "https://goodlife.vercel.app/login";
 };
 
 
