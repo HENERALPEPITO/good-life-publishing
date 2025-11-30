@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 
 const handleRedirect = () => {
-    window.location.href = "https://goodlife.vercel.app/login";
+    window.location.href = "https://clientportal.goodlife-publishing.com/login";
 };
 
 const Navbar: React.FC = () => {
