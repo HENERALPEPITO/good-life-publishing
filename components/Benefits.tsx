@@ -12,7 +12,7 @@ const Benefits: React.FC = () => {
     {
       icon: <Zap size={28} className="text-accent" />,
       title: "Fast payments",
-      desc: "Get paid monthly, directly to your bank account. No minimum thresholds to withdraw your earnings."
+      desc: "Get paid every quarter, directly to your bank account. No minimum thresholds to withdraw your earnings."
     },
     {
       icon: <Headphones size={28} className="text-accent" />,
@@ -22,7 +22,7 @@ const Benefits: React.FC = () => {
     {
       icon: <Coins size={28} className="text-accent" />,
       title: "Fair pricing",
-      desc: "Flat rate or low commission options. Choose the plan that works for your career stage."
+      desc: "We only take a small commission from the royalties we collect on your behalf—no upfront costs, no hidden fees. We only earn when you earn."
     }
   ];
 

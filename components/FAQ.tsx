@@ -47,9 +47,9 @@ const FAQ: React.FC = () => {
 
   const faqs: FaqItem[] = [
     { question: "What exactly is music publishing?", answer: "Music publishing is the business of managing the rights to your songs (the composition). We ensure you collect royalties whenever your music is streamed, performed live, played on radio, or used in TV/film." },
-    { question: "How do I get paid and how often?", answer: "We pay out royalties monthly via direct deposit, PayPal, or wire transfer. Once we collect the money from global societies, it appears in your dashboard instantly." },
+    { question: "How do I get paid and how often?", answer: "We pay out royalties every three months via direct deposit, PayPal, or wire transfer. Once we collect the money from global societies, it appears in your dashboard instantly." },
     { question: "Do you take ownership of my music?", answer: "Absolutely not. You retain 100% of your copyright ownership. We simply administer the rights on your behalf for a term, and you can leave whenever you want after the initial period." },
-    { question: "How long does it take to get started?", answer: "Sign up takes about 5 minutes. Once you upload your catalog, we start registering your works with global collection societies within 48 hours." },
+    { question: "How long does it take to get started?", answer: "Signing up takes about 5 minutes. Because we can’t accept every applicant at this stage, we’ll first review and approve your profile (within 24 hours). Once approved and your catalog is uploaded, we’ll register your songs and deliver them to international collection societies within 48 hours." },
     { question: "What territories do you cover?", answer: "We cover 150+ countries. We have direct relationships with major societies like ASCAP, BMI, PRS, GEMA, and SACEM, plus sub-publishers in emerging markets." },
     { question: "What if my music is already registered elsewhere?", answer: "We can help you transfer your catalog. Our onboarding team handles the letters of direction to switch administration to Good Life without losing historical data." }
   ];
