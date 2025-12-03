@@ -2,6 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 
+
+const handleRedirect = () => {
+    window.location.href = "https://forms.zohopublic.com/carlitoelipangm1/form/GoodLifePublishing/formperma/GpDKteN1fCCtmCp-k8FaFHI9_HXYvQrcD8TaTCsUCh0";
+};
+
 const CTA: React.FC = () => {
   return (
     <section className="py-24 relative overflow-hidden bg-white border-t border-border">
@@ -27,13 +32,12 @@ const CTA: React.FC = () => {
           </p>
           
           <div className="flex flex-col items-center gap-4">
-            <button className="bg-accent text-white text-lg font-bold py-5 px-10 rounded-full shadow-soft-lg hover:bg-accent-hover hover:shadow-xl hover:-translate-y-1 transition-all flex items-center gap-2 group">
+            <button 
+            onClick={handleRedirect}
+            className="bg-accent text-white text-lg font-bold py-5 px-10 rounded-full shadow-soft-lg hover:bg-accent-hover hover:shadow-xl hover:-translate-y-1 transition-all flex items-center gap-2 group">
               Get started for free
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
-            <p className="text-sm text-secondary font-medium">
-              No credit card required • Setup in 5 minutes
-            </p>
           </div>
         </motion.div>
       </div>

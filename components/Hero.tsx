@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 
  const handleRedirect = () => {
-    window.location.href = "https://clientportal.goodlife-publishing.com/login";
+    window.location.href = "https://forms.zohopublic.com/carlitoelipangm1/form/GoodLifePublishing/formperma/GpDKteN1fCCtmCp-k8FaFHI9_HXYvQrcD8TaTCsUCh0";
 };
 
 
