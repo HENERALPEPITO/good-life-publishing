@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 
 const handleRedirect = () => {
-    window.location.href = "https://clientportal.goodlife-publishing.com/login";
+    window.location.href = "https://clientportal.goodlife-publishing.com/";
 };
 
 const Navbar: React.FC = () => {
@@ -65,9 +65,12 @@ const Navbar: React.FC = () => {
             className="md:hidden bg-white border-b border-gray-200 overflow-hidden shadow-lg"
           >
             <div className="flex flex-col p-6 gap-4">
-              <button className="w-full bg-green-700 text-white py-3 rounded-full font-semibold shadow-md hover:bg-green-800">
-                Log in
-              </button>
+              <button 
+                onClick={handleRedirect}  // ← This was added
+                   className="w-full bg-green-700 text-white py-3 rounded-full font-semibold shadow-md hover:bg-green-800"
+      >
+                  Log in
+      </button>
             </div>
           </motion.div>
         )}
